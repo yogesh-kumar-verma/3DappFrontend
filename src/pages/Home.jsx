@@ -10,7 +10,7 @@ function Home() {
   const [toggle, setToggle] = useState(true);
   useEffect(() => {
     try {
-      axios.get("http://localhost:3000/api").then((res) => {
+      axios.get("http://65.2.169.206:3000/").then((res) => {
         setProducts(res.data);
       });
     } catch (error) {

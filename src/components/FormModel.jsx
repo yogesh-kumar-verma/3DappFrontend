@@ -10,7 +10,7 @@ function FormModel(props) {
   const [file, setFile] = useState(null);
   const addModel = (e) => {
     e.preventDefault();
-    console.log(name, desc, thumbnail, file, "yaha par read ho rha hia");
+    // console.log(name, desc, thumbnail, file, "yaha par read ho rha hia");
     if (file == null) {
       return;
     }
@@ -43,7 +43,7 @@ function FormModel(props) {
     formData.append("file", file);
     formData.append("thumbnail", thumbnail);
     axios
-      .post("http://localhost:3000/api/", formData, {
+      .post("http://65.2.169.206:3000/", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
