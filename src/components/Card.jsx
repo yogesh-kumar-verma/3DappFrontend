@@ -33,16 +33,18 @@ function Card(props) {
         {isHovered && (
           <div
             className=""
+            onMouseEnter={() => setIsHovered(true)}
             style={{
               position: "absolute",
               fontSize: "50px",
               color: "black",
-              // zIndex: "4",
+              zIndex: "4",
               top: "30%",
               left: "43%",
-              transition: "all 0.3s ease-in-out",
+              // transition: "all 0.3s ease-in-out",
             }}
           >
+            {/* <div className="bg-dark">SDF</div> */}
             <FontAwesomeIcon icon={faCirclePlay} />
           </div>
         )}
