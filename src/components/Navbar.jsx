@@ -37,11 +37,7 @@ function Navbar() {
                   <h1></h1>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/singlecomponent/123">
-                  Something
-                </Link>
-              </li>
+          
               {/* <div className="d-block d-md-none"> */}
               <li className="nav-item">
                 <Link className="nav-link active" to="/login ">
