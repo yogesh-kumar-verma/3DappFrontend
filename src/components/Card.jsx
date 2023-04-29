@@ -7,7 +7,7 @@ function Card(props) {
   const { product } = props;
   const navigate = useNavigate();
   const [isHovered, setIsHovered] = useState(false);
-  const path = "https://master--jade-sundae-c27c48.netlify.app/api";
+  const path = "https://master--jade-sundae-c27c48.netlify.app/api/";
   return (
     <div className="col-12 col-md-4 col-lg-3  ">
       <div
