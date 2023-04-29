@@ -10,7 +10,7 @@ function Home() {
   const [toggle, setToggle] = useState(true);
   useEffect(() => {
     try {
-      axios.get("http://65.2.169.206:3000/").then((res) => {
+      axios.get("https://master--jade-sundae-c27c48.netlify.app/api").then((res) => {
         setProducts(res.data);
       });
     } catch (error) {

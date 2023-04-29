@@ -43,7 +43,7 @@ function FormModel(props) {
     formData.append("file", file);
     formData.append("thumbnail", thumbnail);
     axios
-      .post("http://65.2.169.206:3000/", formData, {
+      .post("https://master--jade-sundae-c27c48.netlify.app/api", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

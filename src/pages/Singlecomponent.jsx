@@ -6,7 +6,7 @@ import CanvasLoader from "../components/CanvasLoader";
 
 function Singlecomponent(props) {
   const { id } = useParams();
-  const path = "http://65.2.169.206:3000/uploads/glb/";
+  const path = "https://master--jade-sundae-c27c48.netlify.app/api/uploads/glb/";
   const component = useGLTF(`${path + id}`);
   // console.log(id, path);
 
