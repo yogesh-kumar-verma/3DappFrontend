@@ -37,15 +37,15 @@ function Navbar() {
                   <h1></h1>
                 </Link>
               </li>
-          
+
               {/* <div className="d-block d-md-none"> */}
               <li className="nav-item">
-                <Link className="nav-link active" to="/login ">
+                <Link className="nav-link active" to="/ ">
                   Login <FontAwesomeIcon icon={faRightToBracket} />
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/register">
+                <Link className="nav-link active" to="/">
                   Register <FontAwesomeIcon icon={faUser} />
                 </Link>
               </li>
