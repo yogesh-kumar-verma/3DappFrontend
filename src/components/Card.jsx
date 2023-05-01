@@ -34,6 +34,9 @@ function Card(props) {
           <div
             className=""
             onMouseEnter={() => setIsHovered(true)}
+            onClick={() => {
+              navigate(`/singlecomponent/${product.objectPath.substr(12)}`);
+            }}
             style={{
               position: "absolute",
               fontSize: "50px",
